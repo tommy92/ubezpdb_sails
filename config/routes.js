@@ -36,7 +36,9 @@ module.exports.routes = {
   //   view: 'home/index'
   // }
 
-  '/': 'customer'
+  '/customers': 'customer',
+
+  '/customers/:id': 'customer.edit'
 
   /*
   // But what if you want your home page to display

@@ -1,0 +1,21 @@
+{
+  "name": "ubezpdb_sails",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tommy92/ubezpdb_sails",
+  "authors": [
+    "Tomasz Jaworski <tomek.jaworski9@wp.pl>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "install" : {
+    "path" : "assets/linker/js/vendor"
+  }
+}

@@ -43,3 +43,10 @@ nbproject
 # local config
 ########################
 config/local.js
+
+
+########################
+# assets
+########################
+bower_components
+assets/linker/js/vendor

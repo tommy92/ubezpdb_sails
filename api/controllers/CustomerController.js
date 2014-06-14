@@ -24,12 +24,31 @@ module.exports = {
     });
   },
 
+  edit: function(req, res) {
+    Customer.find( {id: req.params.id} ).exec(function(err, customer) {
+      if (err) res.send(err, 500);
+      res.json(customer);
+    });
+  },
 
-  /**
-   * Overrides for the settings in `config/controllers.js`
-   * (specific to CustomerController)
-   */
-  _config: {}
+  create: function(req, res) {
 
+  },
+
+  destroy: function(req, res) {
+
+  },
+
+  archive: function(req, res) {
+
+  },
+
+  unarchive: function(req, res) {
+
+  },
+
+  listArchived: function(req, res) {
+
+  }
 
 };
