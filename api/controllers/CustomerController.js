@@ -49,6 +49,11 @@ module.exports = {
 
   listArchived: function(req, res) {
 
+  },
+
+  partialsWithFolder: function(req, res) {
+    res.render('partials/' + req.param('folder') + '/' + req.param('file'))
   }
+
 
 };
