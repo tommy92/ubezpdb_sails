@@ -1,1 +1,3 @@
-h1 Customers index
+ul
+  li(ng-repeat="customer in customers")
+    a(ui-sref="customer_edit({id: customer.id})") {{customer.name}}

@@ -33,7 +33,7 @@ module.exports.routes = {
   //
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': {
-    view: 'layout'
+    view: 'home/index'
   },
 
   '/partials/:folder/:file': {
@@ -41,9 +41,9 @@ module.exports.routes = {
     action: 'partialsWithFolder'
   },
 
-  '/customers': 'customer',
+  '/api/customers': 'customer',
 
-  '/customers/:id': 'customer.edit'
+  '/api/customers/:id': 'customer.edit'
 
   /*
   // But what if you want your home page to display

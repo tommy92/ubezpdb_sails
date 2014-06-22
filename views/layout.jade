@@ -4,15 +4,17 @@ html(ng-app="UbezpDB")
     title= title
     meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
   body
-    div(ui-view="")
-
+    block body
     // SCRIPTS
     script(type="text/javascript", src="/linker/js/vendor/angular/angular.js")
     script(type="text/javascript", src="/linker/js/vendor/angular-ui-router/angular-ui-router.js")
+    script(type="text/javascript", src="/linker/js/vendor/lodash/lodash.compat.js")
+    script(type="text/javascript", src="/linker/js/vendor/restangular/restangular.js")
     script(type="text/javascript", src="/linker/js/socket.io.js")
     script(type="text/javascript", src="/linker/js/sails.io.js")
     script(type="text/javascript", src="/linker/js/app.js")
     script(type="text/javascript", src="/linker/js/application/main.js")
+    script(type="text/javascript", src="/linker/js/application/customers/controllers/customer_edit_controller.js")
     script(type="text/javascript", src="/linker/js/application/customers/controllers/customers_controller.js")
     script(type="text/javascript", src="/linker/js/application/customers/router.js")
     // SCRIPTS END

@@ -1,1 +1,2 @@
-angular.module('UbezpDB').controller 'CustomersController', ($scope) ->
+angular.module('UbezpDB').controller 'CustomersController', ($scope, customers) ->
+  $scope.customers = customers

@@ -44,6 +44,8 @@ module.exports = function (grunt) {
   var jsFilesToInject = [
     'linker/js/vendor/angular/angular.js',
     'linker/js/vendor/angular-ui-router/angular-ui-router.js',
+    'linker/js/vendor/lodash/lodash.compat.js',
+    'linker/js/vendor/restangular/restangular.js',
 
     'linker/js/socket.io.js',
     'linker/js/sails.io.js',
